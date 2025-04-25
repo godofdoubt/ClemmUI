@@ -376,7 +376,7 @@ class ClemmMatrixUI(tk.Tk):
             #"SYNCHRONIZING TIMELINES...",
             #"LOADING AI CREW PROFILES..."
         #]
-        
+        # Commented out for demonstration they should work fine inside a working framework.
         # Fix: Add delays between messages for better effect
         for msg in loading_messages:
             self.append_output(msg)
